@@ -1,0 +1,38 @@
+body, p {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: #333333;
+	margin: 20px 0;
+}
+
+p {
+	color: #8F918F;
+	margin: 10px 0;
+}
+
+.contenedor {
+	height: 200vh;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.iphone-6s {
+	display: inline-block;
+	margin-top: 50px;
+	position: relative;
+	transition: .1s;
+}
+
+.forma {
+	background-image: url('../images/shape.jpg');
+	width: 128px; height: 128px;
+	position: absolute;
+	top: 75px; right: 160px;
+	background-position: -54px;
+	mask-image: url('../images/apple-mask.png');
+	-webkit-mask-image: url('../images/apple-mask.png');
+}
